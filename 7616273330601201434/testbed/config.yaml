@@ -1,0 +1,9 @@
+# 当前使用的模型 (对应下方 models 中的 key)
+current_model: "doubao-seed-2.0"
+
+models:
+  doubao-seed-2.0:
+    api_key: "${DOUBAO_API_KEY}"
+    model: "doubao-seed-2-0-code-preview-260215"
+    base_url: "https://ark.cn-beijing.volces.com/api/v3"
+    temperature: 0.1
